@@ -1,0 +1,24 @@
+h2
+{
+ color: blue;
+ background-color: black;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-style: calc();
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p
+{
+ color: brown;
+ background-color: aqua;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ background-color: cadetblue;
+}
+h1
+{
+ color: crimson;
+ background-color: chocolate;
+ font-style: unset;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

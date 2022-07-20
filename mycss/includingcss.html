@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style1.css">
+ <style>
+  h2{
+   color: orangered;
+  }
+  h4{
+   color: blue;
+  }
+ </style>
+</head>
+<body>
+ <p>Inline css is always there in head part</p>
+  <h2> this is created wiith Enternal  css</h2>
+  <p style="color: blueviolet;" > this is created with inline css</p>
+  <p>over here color will not apply because we didnt use inline css here</p>
+  <h2>color will apply because we took Enternal css upside head tag</h2>
+  <h3>this is used with external css</h3>
+  <p>now lets see priority</p>
+  <h4 style="color: darkgreen;" >this is h4 this h4 will use inline css which is wrriten in starting tag of h4</h4>
+  <h4>this is second h4 this h4 will take enternal css which is used in head tag</h4>
+</body>
+</html>

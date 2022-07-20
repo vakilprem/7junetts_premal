@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Attribute Selector</title>
+ <style>
+  /* a element with title attribute starts */
+  a[title]
+  {
+   border: 2px solid orchid;
+  }
+  /* <a> element eith the titile atrribute end */
+   /* <a> element with href matching "http://eample.org" */
+    a[href="http://www.tops-int.com"]
+    {
+     font-weight: bolder;
+     color: aqua;
+    }
+    /* <a> element with matching href "eample" */
+     a[href*="example"]
+     {
+      font-size: 2em;
+     }
+     /* <a> elment with an href ending ".org" start */
+      a[href$=".in"]
+      {
+       font-style: italic;
+       background: linear-gradient(orange,white,blue);
+      }
+      /* <a> element class which cantain logo */
+       a[class~="logo"]
+       {
+        padding: 2px;
+        font-size: 50px;
+       }
+      
+ </style>
+</head>
+<body>
+ <a href="">Click</a>
+ <a href="">This is link</a>
+ <a href="https//www.tops-int.com">Website title</a>
+ <a accesskey="h" href="https://google.com">Google</a>
+ <a href="example">About</a>
+ <a href="https://www.example">Contact</a>
+ <a href="https://www.aa.in">india</a>
+ <a href="htpps//www.inexample.com">contact</a>
+ <a href="#" class="log">Site</a>
+</body>
+</html>

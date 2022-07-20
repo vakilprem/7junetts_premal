@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Froms</title>
+</head>
+<body style="background-color: rgb(193, 161, 235);">
+    <h1 align="center" style="background-color: aqua; border: rgb(14, 116, 85);"> Forms</h1>
+    <form  method="post" action="server.php" enctype="multipart/form-data">
+        <table align="center" border="2" width="500">
+            <tr>
+                <td> <label for="fname" id="fname">Enter First Name</label></td>
+                <td><input type="text" name="fname" id="fname" placeholder="First name"></td>
+            </tr>
+            <tr>
+                <td> <label for="lname" id="lname">Enter Last Name</label></td>
+                <td><input type="text" name="lname" id="lname" placeholder="Last name"></td>
+            </tr>
+            <tr>
+                <td> <label for="password" id="pwd">Enter Password</label></td>
+                <td><input type="password" name="pwd" id="pwd" placeholder="password"></td>
+            </tr>
+            <tr>
+                <td> <label for="Mobile" id="Mobile">Enter Mobile Number</label></td>
+                <td><input type="tel" name="Mobile" id="Mobile" placeholder="Mobile Number"></td>
+            </tr>
+            <tr>
+                <td> <label for="email" id="email">Enter Email id</label></td>
+                <td><input type="email" name="email" id="email" placeholder="Email id"></td>
+            </tr>
+
+            <tr>
+                <td> <label for="age" id="age">Age</label></td>
+                <td><input type="number" name="age" id="age" placeholder="Enter age"></td>
+            </tr>
+            <tr>
+                <td> <label for="Gender" value="male">Gender</label></td>
+                <td><input type="radio" name="Gender" value="Male" > Male
+                <input type="radio" name="Gender" value="Female">Female</td>
+            </tr>
+            <tr>
+                <td><label for="Address" value="address">Address</label></td>
+                <td><textarea name="Address" id="" value="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="City" value="city">City</label></td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Select Your City</option>
+                        <option value="Ahemdabad">Ahemdabad</option>
+                        <option value="Gandhinagar">Gandhinagar</option>
+                        <option value="Surat">Surat</option>
+                        <option value="Baroda">Baroda</option>
+                    </select>
+                </td>
+                
+            </tr>
+            <tr>
+                <td>
+                    <label for="Education" value="education">Education</label>
+                </td>
+                <td><select name="" id="" multiple><option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="BCA">BCA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="MSCIT">MSCIT</option>
+                    <option value="PGDCA">PGDCA</option></select></td>
+                </td>
+            </tr>
+                <tr>
+                    <td><label for="DOB">Date Of Birth</label></td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="Hobbies">Hobbies</label></td>
+                    <td><input type="checkbox" name="" id="">Cricket
+                    <input type="checkbox" name="" id="">Movies
+                    <input type="checkbox" name="" id="">Travelling
+                    <!-- <input type="checkbox" name="" id="">Singing -->
+                    <input type="checkbox" name="" id="">Dancing</td>
+                </tr>
+                <tr>
+                    <td><label for="Profile Picture">Profile Picture</label></td>
+                    <td><input type="file" name="Profile Picture"></td>
+                </tr>
+                <tr>
+                    <td> <input type="submit" value="Send" name="" id=""></td>
+                    <td><input type="Reset"></td>
+                </tr>
+
+        </table>
+    </form> 
+</body>
+</html>
