@@ -1,0 +1,36 @@
+*
+{
+ box-sizing: border-box;
+}
+/* create two equal columns that floats next to each other */
+.column
+{
+ float: left;
+ width: 50%;
+ padding: 10px;
+ /* height: 300px;  */
+ /* height should be removed only for demostration */
+}
+.row:after
+{
+content:"";
+display: table;
+clear: both;
+}
+.cont
+{
+ width: 960px;
+ margin: 0 auto;
+}
+p
+{
+ /* text-align: justify; */
+ /* text-align: left; */
+ /* text-align: end; */
+ text-align: center;
+}
+h1,h2
+{
+ font-weight: 400;
+    font-family: DauphinPlain;
+}
