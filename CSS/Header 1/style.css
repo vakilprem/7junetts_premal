@@ -1,0 +1,37 @@
+*{
+ padding: 0;
+ margin:0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;
+}
+body{
+ font-family: monospace;
+}
+nav{
+ background: steelblue;
+ height :80px;
+ width:100%;
+}
+label.logo{
+ color: white;
+ font-size:35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+}
+nav ul{
+ float: right;
+ margin-right: 20px;
+}
+nav ul li{
+ display: inline-block;
+ line-height: 80px;
+ margin: 0 5px;
+ text-transform: uppercase;
+
+}
+a.active,a:hover{
+ background: yellowgreen;
+ transition: .5s;
+}

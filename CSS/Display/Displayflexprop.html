@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Display Flex Property</title>
+ <style>
+  *
+  {
+   background-color: aqua;
+  }
+  div
+  {
+   border: 1px solid;
+  }
+  .row
+  {
+   display: flex;
+  }
+ .flex-row
+ {
+  display: flex;
+  flex-direction: row;
+ }
+ 
+ .flex-dir-col
+ {
+  display: flex;
+  flex-direction: column;
+ } 
+ .flex-row-rev
+ {
+  display: flex;
+  flex-direction: row-reverse;
+ }
+ .flex-col-rev
+ {
+  /* display: flex; */
+  flex-direction: column-reverse
+ }
+ .col-50
+ {
+  width: 49.57%;
+ }
+ .flex-wrap
+ {
+  flex-wrap: wrap;
+ }
+ .flex-flow
+ {
+  flex-flow: column wrap;
+ }
+
+ .justify-cont
+ {
+  height: 100px;
+  justify-content: space-evenly;
+  /* justify-content: space-around; */
+  /* justify-content: space-between; */
+  /* justify-content: baseline; */
+ }
+ .align-item
+ {
+  height: 100px;
+  align-items: center;
+  /* align-items: baseline; */
+ }
+ .flexgap
+ {
+  height: 100px;
+  gap: 10px 20px;
+  /* column-gap: 20px; */
+  /* row-gap: 10px; */
+  /* column-gap: 20px; */
+ }
+ .col-grow
+ {
+  flex-grow: 4;
+ }
+ 
+ </style>
+</head>
+<body>
+ <h2>Display Flex</h2>
+ <div class="row">
+  <!-- This is display Flex  -->
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display Direction row</h2>
+ <div class="flex-row">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display Direction column</h2>
+ <div class="flex-dir-col">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display Direction row-reverse</h2>
+ <div class="flex-row-rev">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display Direction column-reverse</h2>
+ <div class="row flex-col-rev">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display  flexwrap</h2>
+ <div class="row flex-wrap">
+  <div class="col-50">col1</div>
+  <div class="col-50">col2</div>
+  <div class="col-50">col3</div>
+ </div>
+ <h2>Display  justify-cont</h2>
+ <div class="row justify-cont">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display align-item</h2>
+ <div class="row align-item">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display Flexgap</h2>
+ <div class="row flexgap">
+  <div class="col">col1</div>
+  <div class="col">col2</div>
+  <div class="col">col3</div>
+ </div>
+ <h2>Display colgrow</h2>
+ <div class="row">
+  <div class="col-grow">col1</div>
+  <div class="col-grow">col2</div>
+  <div class="col-grow">col3</div>
+ </div>
+</body>
+</html>
