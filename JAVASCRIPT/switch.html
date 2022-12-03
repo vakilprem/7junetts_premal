@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JS4</h1>
+    <script>
+      let input;
+      input = 0;
+        // if (input === 1 || input === "y" || input === "yes") {
+        //   document.write("Continue");
+        // }
+        // else if (input === 0 || input === "n" || input === "no") {
+        //   document.write("End");
+        // }
+        //  else {
+        //   document.write("Wrong Input");
+        // }
+      // switch === comparision kare che
+      switch (input) {
+        case 1: //if(input === 1)
+        case "y":
+        case "yes":
+          document.write("Continue");
+          break;
+        case "0":
+        case "n":
+        case "no":
+          document.write("End");
+          break;
+
+        default:
+          document.write("Wrong Input");
+          break;
+      }
+    </script>
+  </body>
+</html>

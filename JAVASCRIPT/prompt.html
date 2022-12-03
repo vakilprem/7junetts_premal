@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> The Windows Object</h1>
+    <h2>The Prompt ()</h2>
+    <button onclick="myfun()">Click Here</button>
+    <p id="demo"></p>
+    <script>
+        function myfun() {
+            let name = prompt("Please Enter Your Name", " Premal Vakil");
+            if(name != null )
+            {
+                document.getElementById("demo").innerHTML = "Hello" + name + "How are you ??"
+            }
+            else{
+                alert("Please Enter Your name");
+            }
+        }
+    </script>
+</body>
+</html>

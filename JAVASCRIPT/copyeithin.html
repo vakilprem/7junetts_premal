@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Copy Within</title>
+</head>
+<body>
+    <h3 id="ans"></h3>
+    <script>
+        const fruits = ["banana","orange","mango","kiwi","pineapple"];
+        document.getElementById("ans").innerHTML = fruits;
+        document.getElementById("ans").innerText = fruits.copyWithin(3,0,2);
+
+    </script>
+</body>
+</html>

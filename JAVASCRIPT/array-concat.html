@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Contact</title>
+</head>
+
+<body>
+    <p>Concat() Method concatenates (joines) two or more arrays.</p>
+    <p id="r1"></p>
+    <p id="r2"></p>
+    <p id="result">This is Concat result -></p>
+    <script>
+        // string s = ["Premal", "vakil"];
+        var c = "name";
+        const Array1 = ["Premal", "vakil"];
+        document.getElementById("r1").innerHTML = Array1;
+        let array2 = ["Email", "address", "Phone Number"];
+        document.getElementById("r2").innerHTML = array2;
+        console.log(Array1);
+        // document.write(Array1);
+        console.log(array2);
+        // prompt(array2);
+        console.log(typeof [Array1]);
+        console.log(typeof [c]);
+
+        const concat = Array1.concat(array2);
+        console.log(concat);
+        // document.write(concat);
+        document.getElementById("result").innerHTML = concat;
+
+    </script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
