@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="calc">
+            <input type="text" class="input" value="" readonly placeholder="DEG">
+            <input type="text" class="input1" id="xyz" value="" readonly>
+            <input type="text" class="input2"  value="" readonly>
+            <div>
+                <div>
+
+                    <button type="button" class="button">7</button>
+                    <button type="button" class="button">8</button>
+                    <button type="button" class="button">9</button>
+                    <button type="button" onclick ="back();"  id="clr" class="button">DEL</button>
+
+                </div>
+
+                <div>
+
+                    <button type="button" class="button">4</button>
+                    <button type="button" class="button">5</button>
+                    <button type="button" class="button">6</button>
+                    <button type="button" id="clr" class="button">%</button>
+                </div>
+                <!-- <button type="button" class="cal-btn">/</button> -->
+
+                <div>
+
+                    <button type="button" class="button">1</button>
+                    <button type="button" class="button">2</button>
+                    <button type="button" class="button">3</button>
+                    <button type="button" id="clr" class="button">*</button>
+                </div>
+
+                <div>
+
+                    <button type="button" class="button">.</button>
+                    <button type="button" class="button">0</button>
+                    <button type="button" class="button">=</button>
+                    <button type="button" id="clr" class="button">+</button>
+
+                </div>
+                <div>
+                    <button type="button" class="button" id="clr1"> - </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="js.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.div{
+    display: flex;
+    margin: 0 auto;
+    width: 1250px;
+    background-color: #D3D3D3;
+    height: 400px;
+    margin-top: 100px;
+}
+
+.fa-brands {
+  background-color: grey;
+  border: 12px grey solid;
+  font-size: 35px;
+  border-radius: 30%;
+}
+.badge1 {
+  margin-left: auto;
+  color: white;
+}
+.progress{
+    width: 85%;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.apply{
+    margin-left: 25px;
+    font-size: 13px;
+}
+span{
+    color: black;
+    font-weight: bolder;
+}

@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 500px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153,153, 1);
+}
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px ;
+    font-size: 25px;
+}
+.buttons{
+    display: grid;
+    border-bottom: 1px solid #999;
+    border-left: 1px solid #999;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.buttons > div {
+    border-top: 1px solid #999;
+    border-right: 1px solid #999;
+}
+.buttons{
+    border: 0.25ps solid #999;
+    line-height: 100px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+}
+#equal{
+    background-color: #5555ff;
+    color: white;
+}
+.button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
