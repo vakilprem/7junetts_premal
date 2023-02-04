@@ -1,0 +1,2 @@
+React js
+Component is just javascript function which return js function .
