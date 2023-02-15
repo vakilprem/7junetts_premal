@@ -1,0 +1,47 @@
+// Class Component
+A React component undergoes three phases in its lifecycle: mounting, updating, and unmounting.
+
+The mounting phase is when a new component is created and inserted into the DOM or, in other words, when the life of a component begins. This can only happen once, and is often called “initial render.”
+The updating phase is when the component updates or re-renders. This reaction is triggered when the props are updated or when the state is updated. This phase can occur multiple times, which is kind of the point of React.
+The last phase within a component's lifecycle is the unmounting phase, when the component is removed from the DOM.
+In a class-based component, you can call different methods for each phase of the lifecycle (more on this below). These lifecycle methods are of course not applicable to functional components because they can only be written/contained within a class. However, React hooks give functional components the ability to use states.
+
+Hooks have gaining popularity because they make working with React cleaner and often less verbose.
+class ExampleComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {...};
+  }
+
+  componentDidMount() {
+    // componentDidMount is invoked immediately after a component is mounted
+    // Initialization that requires DOM nodes should go here.
+    // If you need to load data from a remote endpoint, this is a good place to instantiate the network request.
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    // componentDidUpdate is invoked immediately after updating occurs
+    // This method is not called for the initial render
+    // Use this as an opportunity to operate on the DOM when the component has been updated.
+  }
+
+  componentWillUnmount() {
+    // componentWillUnmount is invoked immediately before a component is unmounted and destroyed
+    // Perform any necessary cleanup in this method, such as invalidating timers, canceling network requests, or cleaning up any DOM elements that were created in componentDidMount
+  }
+
+  render() {
+    // render returns a React element to be rendered into the DOM
+    return <div>{/* ... */}</div>;
+  }
+}
+
+// Functional Component with Hooks
+const ExampleComponent = (props) => {
+  const [state, setState] = useState({...});
+  useEffect(() => {
+    // useEffect is invoked after the component is mounted and when it is updated
+    // This is similar to componentDidMount and componentDidUpdate in a class component
+  });
+  return <div>{/* ... */}</div>;
+}
