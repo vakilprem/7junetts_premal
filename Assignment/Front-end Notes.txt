@@ -1,0 +1,107 @@
+What is HTML?
+HTML stands for Hyper Text Markup Language
+HTML is the standard markup language for creating Web pages
+HTML describes the structure of a Web page
+HTML consists of a series of elements
+HTML elements tell the browser how to display the content
+
+1=>The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+2=>The <html> element is the root element of an HTML page
+3=>The <head> element contains meta information about the HTML page
+4=>The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+5=>The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+6=>The <h1> element defines a large heading
+7=>The <p> element defines a paragraph
+
+HTML Elements
+The HTML element is everything from the start tag to the end tag:
+
+<tagname>Content goes here...</tagname>
+
+HTML Attributes
+All HTML elements can have attributes
+Attributes provide additional information about elements
+Attributes are always specified in the start tag
+Attributes usually come in name/value pairs like: name="value"
+Example -> <img src="img_girl.jpg" alt="Girl with a jacket"> over here src and alt is attribute ..alt is used if internet slow and image is not visibale than alt will show the message at the place of image.
+ <p style="color:red;">This is a red paragraph.</p> here style is attribute.
+
+
+
+Headings Are Important
+Search engines use the headings to index the structure and content of your web pages.
+
+Users often skim a page by its headings. It is important to use headings to show the document structure.
+
+<h1> headings should be used for main headings, followed by <h2> headings, then the less important <h3>, and so on.
+
+HTML Horizontal Rules
+The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+
+The <hr> element is used to separate content (or define a change) in an HTML page:
+
+The HTML <br> element defines a line break.
+
+<pre> The pre tag preserves both spaces and line breaks:..</pre>
+
+Tag	Description
+<p>	Defines a paragraph
+<hr>	Defines a thematic change in the content
+<br>	Inserts a single line break
+<pre>	Defines pre-formatted text
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+HTML RGB and RGBA Colors
+An RGB color value represents RED, GREEN, and BLUE light sources.
+
+An RGBA color value is an extension of RGB with an Alpha channel (opacity).
+
+HexaDecimal..
+Where rr (red), gg (green) and bb (blue) are hexadecimal values between 00 and ff (same as decimal 0-255).
+HSL Color Values
+In HTML, a color can be specified using hue, saturation, and lightness (HSL) in the form:
+
+hsl(hue, saturation, lightness)
+
+Hue is a degree on the color wheel from 0 to 360. 0 is red, 120 is green, and 240 is blue.
+Saturation is a percentage value. 0% means a shade of gray, and 100% is the full color.
+
+Lightness is also a percentage value. 0% is black, and 100% is white.
+What is CSS?
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
+Using CSS
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+
+HTML Links - Hyperlinks
+HTML links are hyperlinks.
+
+You can click on a link and jump to another document.
+
+When you move the mouse over a link, the mouse arrow will turn into a little hand.
+
+Note: A link does not have to be text. A link can be an image or any other HTML element!
+<a href="url">link text</a>
+By default, links will appear as follows in all browsers:
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red

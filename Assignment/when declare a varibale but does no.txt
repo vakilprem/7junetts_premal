@@ -1,0 +1,7 @@
+when declare a varibale but does not give any value .
+Undefined is also a data type\
+ literals delimited with backtick ( ` ) characters, allowing for multi-line strings, string interpolation with embedded expressions, and special constructs called tagged templates.
+Prmitive and NON -Premetive data types.
+Data Type- > 
+1 Primitive -> Number String Boolean Null Undefined
+2 Non Primitive -> Object Array Funcation Date Regx (Objects)'\]
